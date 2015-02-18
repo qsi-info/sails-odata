@@ -22,14 +22,18 @@
     "sails-generate-entities": "^0.10.8"
   },
   "scripts": {
-    "start": "node app.js",
-    "debug": "node debug app.js"
+    "start": "sails lift",
+    "debug": "sails console",
+    "test": "mocha --reporter spec"
   },
-  "main": "app.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/tjwebb/sails-odata-server.git"
   },
   "author": "Travis Webb <me@traviswebb.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
 }
