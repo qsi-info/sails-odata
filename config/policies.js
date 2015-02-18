@@ -19,6 +19,10 @@
 
 module.exports.policies = {
 
+  ODataController: {
+    '*': [ 'ODataPolicy' ]
+  },
+
   /***************************************************************************
   *                                                                          *
   * Default policy for all controllers and actions (`true` allows public     *
