@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - '0.10'
+  - '0.11'
+  - '0.12'
+
+sudo: false
+
+notifications:
+  email: false
+
+deploy:
+  provider: npm
+  email: me@traviswebb.com
+  api_key:
+    secure: QdFZyjGd0FzfFpNyovI3S1rljpwiEEpHLa0EbrwIkmSQ+O/NF/Uju5Ppy1AcYYhzvkhHap/zjmU/4HdeVgIIoPMf5uoCYw59eFgZDBtbrYN3wMsHlAbddcwjtg8bqz8pdZ3+wLmF0tj/2ZhVAYKwEr0+PZsvN4hp/7lhTMqchSU=
+  on:
+    tags: true
+    repo: cnect/sails-odata
+    all_branches: true
