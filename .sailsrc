@@ -1,5 +1,10 @@
 {
+  "hooks": {
+    "grunt": false
+  },
   "generators": {
-    "modules": {}
+    "modules": {
+      "auth-api": "sails-auth"
+    }
   }
 }
