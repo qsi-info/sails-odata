@@ -1,6 +1,6 @@
 {
   "name": "sails-odata",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extend a sails.js server to support OData protocol. Useful for client applications that use Kendo UI and other frameworks that support OData",
   "keywords": [
     "sails",
